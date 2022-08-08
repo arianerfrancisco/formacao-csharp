@@ -1,0 +1,15 @@
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\bin\Debug\net6.0\4-ConversoesEOutrosTipos.exe
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\bin\Debug\net6.0\4-ConversoesEOutrosTipos.deps.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\bin\Debug\net6.0\4-ConversoesEOutrosTipos.runtimeconfig.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\bin\Debug\net6.0\4-ConversoesEOutrosTipos.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\bin\Debug\net6.0\4-ConversoesEOutrosTipos.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\4-ConversoesEOutrosTipos.csproj.AssemblyReference.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\4-ConversoesEOutrosTipos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\4-ConversoesEOutrosTipos.AssemblyInfoInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\4-ConversoesEOutrosTipos.AssemblyInfo.cs
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\4-ConversoesEOutrosTipos.csproj.CoreCompileInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\4-ConversoesEOutrosTipos.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\refint\4-ConversoesEOutrosTipos.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\4-ConversoesEOutrosTipos.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\4-ConversoesEOutrosTipos.genruntimeconfig.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\4-ConversoesEOutrosTipos\obj\Debug\net6.0\ref\4-ConversoesEOutrosTipos.dll
