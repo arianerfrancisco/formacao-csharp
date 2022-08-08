@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+class Programa
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Projeto 5 - Caracteres e Textos");
+
+        
+
+        Console.WriteLine("Tecle enter para fechar");
+
+        Console.ReadLine();
+
+    }
+
+}

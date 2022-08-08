@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\CaracteresTexto\\CaracteresTexto.csproj",
-      "projectName": "CaracteresTexto",
-      "projectPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\CaracteresTexto\\CaracteresTexto.csproj",
+      "projectUniqueName": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\CaracteresTexto\\5- CaracteresTexto.csproj",
+      "projectName": "5- CaracteresTexto",
+      "projectPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\CaracteresTexto\\5- CaracteresTexto.csproj",
       "packagesPath": "C:\\Users\\Ariane Rocha\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\CaracteresTexto\\obj\\",
       "projectStyle": "PackageReference",
