@@ -1,0 +1,15 @@
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\bin\Debug\net6.0\2-Fatorial.exe
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\bin\Debug\net6.0\2-Fatorial.deps.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\bin\Debug\net6.0\2-Fatorial.runtimeconfig.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\bin\Debug\net6.0\2-Fatorial.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\bin\Debug\net6.0\2-Fatorial.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\2-Fatorial.csproj.AssemblyReference.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\2-Fatorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\2-Fatorial.AssemblyInfoInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\2-Fatorial.AssemblyInfo.cs
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\2-Fatorial.csproj.CoreCompileInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\2-Fatorial.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\refint\2-Fatorial.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\2-Fatorial.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\2-Fatorial.genruntimeconfig.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\2-Fatorial\obj\Debug\net6.0\ref\2-Fatorial.dll
