@@ -1,14 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_5_CaracteresTexto</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\5- CaracteresTexto\Program.cs" Link="Program.cs" />
-  </ItemGroup>
 
 </Project>

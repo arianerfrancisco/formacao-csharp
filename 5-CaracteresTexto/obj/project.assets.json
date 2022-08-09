@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\CaracteresTexto\\5- CaracteresTexto.csproj",
-      "projectName": "5- CaracteresTexto",
-      "projectPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\CaracteresTexto\\5- CaracteresTexto.csproj",
+      "projectUniqueName": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\5-CaracteresTexto\\5-CaracteresTexto.csproj",
+      "projectName": "5-CaracteresTexto",
+      "projectPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\5-CaracteresTexto\\5-CaracteresTexto.csproj",
       "packagesPath": "C:\\Users\\Ariane Rocha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\CaracteresTexto\\obj\\",
+      "outputPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\5-CaracteresTexto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ariane Rocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
