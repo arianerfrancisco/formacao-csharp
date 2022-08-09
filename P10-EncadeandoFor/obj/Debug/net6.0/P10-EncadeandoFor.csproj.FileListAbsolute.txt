@@ -1,0 +1,15 @@
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\bin\Debug\net6.0\P10-EncadeandoFor.exe
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\bin\Debug\net6.0\P10-EncadeandoFor.deps.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\bin\Debug\net6.0\P10-EncadeandoFor.runtimeconfig.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\bin\Debug\net6.0\P10-EncadeandoFor.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\bin\Debug\net6.0\P10-EncadeandoFor.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\P10-EncadeandoFor.csproj.AssemblyReference.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\P10-EncadeandoFor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\P10-EncadeandoFor.AssemblyInfoInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\P10-EncadeandoFor.AssemblyInfo.cs
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\P10-EncadeandoFor.csproj.CoreCompileInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\P10-EncadeandoFor.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\refint\P10-EncadeandoFor.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\P10-EncadeandoFor.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\P10-EncadeandoFor.genruntimeconfig.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\P10-EncadeandoFor\obj\Debug\net6.0\ref\P10-EncadeandoFor.dll
