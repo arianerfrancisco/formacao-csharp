@@ -4,11 +4,11 @@ class Programa
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Projeto 7 - Condicionais");
+        Console.WriteLine("Projeto 6 - Condicionais");
 
         int idadeJoao = 18;
-        
-        if(idadeJoao >= 18)
+
+        if (idadeJoao >= 18)
         {
             Console.WriteLine("Pode entrar");
         }
@@ -24,3 +24,4 @@ class Programa
     }
 
 }
+

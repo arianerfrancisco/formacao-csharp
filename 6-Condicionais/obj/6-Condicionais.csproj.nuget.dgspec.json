@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\7-Condicionais\\7-Condicionais.csproj": {}
+    "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\6-Condicionais\\6-Condicionais.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\7-Condicionais\\7-Condicionais.csproj": {
+    "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\6-Condicionais\\6-Condicionais.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\7-Condicionais\\7-Condicionais.csproj",
-        "projectName": "7-Condicionais",
-        "projectPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\7-Condicionais\\7-Condicionais.csproj",
+        "projectUniqueName": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\6-Condicionais\\6-Condicionais.csproj",
+        "projectName": "6-Condicionais",
+        "projectPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\6-Condicionais\\6-Condicionais.csproj",
         "packagesPath": "C:\\Users\\Ariane Rocha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\7-Condicionais\\obj\\",
+        "outputPath": "C:\\Users\\Ariane Rocha\\Desktop\\Projetos\\AprendendoCSharp\\6-Condicionais\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ariane Rocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
