@@ -14,7 +14,7 @@ class Programa
         {
             investimento = investimento +  investimento * rendimento;
             Console.WriteLine("O rendimento do seu investimento no final do mês: " + mes + " será de: " + investimento + "reais");
-            mes += 1;
+            mes ++;
         }
    
 
