@@ -1,0 +1,15 @@
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\bin\Debug\net6.0\5- CaracteresTexto.exe
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\bin\Debug\net6.0\5- CaracteresTexto.deps.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\bin\Debug\net6.0\5- CaracteresTexto.runtimeconfig.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\bin\Debug\net6.0\5- CaracteresTexto.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\bin\Debug\net6.0\5- CaracteresTexto.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\5- CaracteresTexto.csproj.AssemblyReference.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\5- CaracteresTexto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\5- CaracteresTexto.AssemblyInfoInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\5- CaracteresTexto.AssemblyInfo.cs
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\5- CaracteresTexto.csproj.CoreCompileInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\5- CaracteresTexto.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\refint\5- CaracteresTexto.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\5- CaracteresTexto.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\5- CaracteresTexto.genruntimeconfig.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\CaracteresTexto\obj\Debug\net6.0\ref\5- CaracteresTexto.dll
