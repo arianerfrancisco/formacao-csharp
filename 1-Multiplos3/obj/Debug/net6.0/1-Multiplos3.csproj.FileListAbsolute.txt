@@ -1,0 +1,15 @@
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\bin\Debug\net6.0\1-Multiplos3.exe
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\bin\Debug\net6.0\1-Multiplos3.deps.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\bin\Debug\net6.0\1-Multiplos3.runtimeconfig.json
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\bin\Debug\net6.0\1-Multiplos3.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\bin\Debug\net6.0\1-Multiplos3.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\1-Multiplos3.csproj.AssemblyReference.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\1-Multiplos3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\1-Multiplos3.AssemblyInfoInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\1-Multiplos3.AssemblyInfo.cs
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\1-Multiplos3.csproj.CoreCompileInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\1-Multiplos3.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\refint\1-Multiplos3.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\1-Multiplos3.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\1-Multiplos3.genruntimeconfig.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\AprendendoCSharp\1-Multiplos3\obj\Debug\net6.0\ref\1-Multiplos3.dll
