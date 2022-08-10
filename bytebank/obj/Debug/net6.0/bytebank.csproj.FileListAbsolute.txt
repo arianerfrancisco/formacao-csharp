@@ -1,0 +1,15 @@
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\bin\Debug\net6.0\bytebank.exe
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\bin\Debug\net6.0\bytebank.deps.json
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\bin\Debug\net6.0\bytebank.runtimeconfig.json
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\bin\Debug\net6.0\bytebank.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\bin\Debug\net6.0\bytebank.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\bytebank.csproj.AssemblyReference.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\bytebank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\bytebank.AssemblyInfoInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\bytebank.AssemblyInfo.cs
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\bytebank.csproj.CoreCompileInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\bytebank.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\refint\bytebank.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\bytebank.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\bytebank.genruntimeconfig.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\bytebank\bytebank\obj\Debug\net6.0\ref\bytebank.dll
