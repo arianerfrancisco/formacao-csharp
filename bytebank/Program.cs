@@ -36,9 +36,9 @@ Cliente cliente3 = new Cliente();
 cliente3.nome = "Ariane";
 conta3.titular = cliente3; // referenciando classe Cliente
 Console.WriteLine(conta3.titular.nome);
-conta3.SetSaldo(100);
-double saldo = conta3.GetSaldo();
-Console.WriteLine("getSaldo: " + saldo);
+
+conta3.Saldo = 150;
+Console.WriteLine("getSaldo: " + conta3.Saldo);
 
 
 

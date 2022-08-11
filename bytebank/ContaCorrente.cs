@@ -4,61 +4,74 @@ namespace bytebank
 {
     public class ContaCorrente
     {
-        public Cliente titular;
-        public string conta { get; set; }
-        public int numero_agencia;
-        public string nome_agencia ;
-        public double saldo;
-        public bool verificador;
-       
+        public Cliente Titular { get; set; }
+        public string Nome_Agencia { get; set; }
+        public int Numero_agencia { get; set; }
+        public string Conta { get; set; }
+        private double saldo;
+
+        public double Saldo
+        {
+            get
+            {
+                return saldo;
+            }
+            set
+            {
+                if (value < 0)
+                {
+                    return;
+                }
+                else
+                {
+                    saldo = value;
+                }
+            }
+        }
 
         public bool Sacar(double valor)
         {
-            if(saldo < valor || valor < 0)
+            if (saldo < valor)
             {
-              return false;
-            } else
-            {
-                saldo = saldo - valor;
-                return true;
+                return false;
             }
-        }
-        public void Depositar(double valor)
-        {
-             if(valor > 0 )
-             {
-                 saldo += valor;
-             }
-        }
-
-        public bool Transferir(double valor, ContaCorrente destino)
-        {
-            if (saldo < valor || valor < 0)
+            if (valor < 0)
             {
                 return false;
             }
             else
             {
-                saldo -= valor;
-                destino.saldo += valor;
+                saldo = saldo - valor;
                 return true;
             }
         }
-        public void SetSaldo(double saldo)
+
+        public void Depositar(double valor)
         {
-            if (saldo < 0)
+            if (valor < 0)
             {
                 return;
             }
+            saldo = saldo + valor;
+        }
+
+        public bool Transferir(double valor, ContaCorrente destino)
+        {
+            if (saldo < valor)
+            {
+                return false;
+            }
+            if (valor < 0)
+            {
+                return false;
+            }
             else
             {
-                this.saldo = saldo;
+                saldo = saldo - valor;
+                destino.saldo = destino.saldo + valor;
+                return true;
             }
         }
 
-        public double GetSaldo()
-        {
-            return saldo;
-        }
     }
 }
