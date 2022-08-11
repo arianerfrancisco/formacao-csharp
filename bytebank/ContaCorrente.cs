@@ -5,11 +5,12 @@ namespace bytebank
     public class ContaCorrente
     {
         public Cliente titular;
-        public string conta ;
+        public string conta { get; set; }
         public int numero_agencia;
         public string nome_agencia ;
         public double saldo;
         public bool verificador;
+       
 
         public bool Sacar(double valor)
         {
@@ -42,6 +43,22 @@ namespace bytebank
                 destino.saldo += valor;
                 return true;
             }
+        }
+        public void SetSaldo(double saldo)
+        {
+            if (saldo < 0)
+            {
+                return;
+            }
+            else
+            {
+                this.saldo = saldo;
+            }
+        }
+
+        public double GetSaldo()
+        {
+            return saldo;
         }
     }
 }

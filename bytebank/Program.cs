@@ -1,13 +1,14 @@
 ﻿
 using bytebank;
 
-/*
+
 ContaCorrente conta1= new ContaCorrente();
 Cliente cliente2 = new Cliente();
 cliente2.nome = "José";
-
-conta1.saldo = 2000;
-Console.WriteLine("Titular: " + cliente2.nome);
+conta1.titular = cliente2;
+conta1.saldo = 10000;
+Console.WriteLine("Saldo" + conta1.saldo);
+Console.WriteLine("Titular: " + conta1.titular.nome);
 
 ContaCorrente conta2 = new ContaCorrente();
 Cliente cliente1 = new Cliente();
@@ -28,13 +29,16 @@ bool transferencia = conta1.Transferir(50, conta2);
 Console.WriteLine("Transferência realizada com sucesso? " + transferencia);
 Console.WriteLine("Saldo conta1 após a transferência: " + conta1.saldo);
 Console.WriteLine("Saldo conta2 após a transferência: " + conta2.saldo);
-*/
+                                        
 
 ContaCorrente conta3 = new ContaCorrente();
 Cliente cliente3 = new Cliente();
 cliente3.nome = "Ariane";
 conta3.titular = cliente3; // referenciando classe Cliente
 Console.WriteLine(conta3.titular.nome);
+conta3.SetSaldo(100);
+double saldo = conta3.GetSaldo();
+Console.WriteLine("getSaldo: " + saldo);
 
 
 
