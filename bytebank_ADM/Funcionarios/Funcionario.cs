@@ -18,11 +18,7 @@ namespace bytebank_ADM.Funcionarios
         public double Salario { get; set; }
         public double getBonificacao()
         {
-            if(_tipo == 1)
-                return Salario ;
-            else
-                return Salario *= 0.1;
-
+              return _tipo == 1 ? Salario: Salario *= 0.1;
         }
     }
 }
