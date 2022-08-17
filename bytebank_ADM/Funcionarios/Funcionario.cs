@@ -8,17 +8,13 @@ namespace bytebank_ADM.Funcionarios
 {
     public class Funcionario
     {
-        public Funcionario(int _tipo)
-        {
-            this._tipo = _tipo;
-        }
         public string Nome { get; set; }
         private int _tipo;     
         public string Cpf { get; set; }
         public double Salario { get; set; }
-        public double getBonificacao()
+        public virtual double getBonificacao()
         {
-              return _tipo == 1 ? Salario: Salario *= 0.1;
+              return _tipo == 1 ? Salario: Salario * 0.1;
         }
     }
 }
