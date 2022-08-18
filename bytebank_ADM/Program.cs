@@ -1,29 +1,31 @@
-﻿// See https://aka.ms/new-console-template for more information
-using bytebank_ADM.Funcionarios;
+﻿using bytebank_ADM.Funcionarios;
 using bytebank_ADM.Utilitarios;
 
 Console.WriteLine("Boas vindas ao ByteBank ADM");
 
-GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+CalcularBonificao();
+void CalcularBonificao()
+{
+    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-Funcionario joao = new Funcionario();
-joao.Nome = "João";
-joao.Cpf = "545452485";
-joao.Salario = 2000;
+    Diretor maria = new Diretor("475754");
+    maria.Nome = "Maria";
+    gerenciador.Registrar(maria);
 
-gerenciador.Registrar(joao);
+    Auxiliar ana = new Auxiliar("451212121");
+    ana.Nome = "Ana";
+    gerenciador.Registrar(ana);
 
-Diretor maria= new Diretor();
-maria.Nome = "Maria";
-maria.Cpf = "475754";
-maria.Salario = 30000;
-gerenciador.Registrar(maria);
+    Designer jose = new Designer("47575fsff4");
+    jose.Nome = "José";
+    gerenciador.Registrar(jose);
 
-Console.WriteLine(joao.Nome);
-Console.WriteLine("Bonificacao Funcionário: " + joao.getBonificacao());
+    GerenteDeContas pedro= new GerenteDeContas("475dsds754");
+    pedro.Nome = "Pedro";
+    gerenciador.Registrar(pedro);
 
-Console.WriteLine(maria.Nome);
-Console.WriteLine("Bonificacao Diretor: " + maria.getBonificacao());
+    Console.WriteLine("Total de Bonificacao: " + gerenciador.GetBonificacao());
 
+}
 
-Console.WriteLine("Total Bonificação: " + gerenciador.GetBonificacao());
+Console.ReadKey();

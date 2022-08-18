@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace bytebank_ADM.Funcionarios
 {
-    public class Diretor:Funcionario
+    public class GerenteDeContas : Funcionario
     {
-        public Diretor(string cpf) : base(cpf,5000) // base(cpf)> invocar o construtor da classe base
+        public GerenteDeContas(string cpf) : base(cpf, 4000)
         {
         }
+
         public override double getBonificacao()
         {
-            return Salario * 0.5;
+            return Salario * 0.025;
         }
         public override void AumentarSalario() // void: permite que este metodo seja reescrito pela classe filha.
         {
-            this.Salario *= 1.5;
+            this.Salario *= 0.05;
         }
     }
 }
