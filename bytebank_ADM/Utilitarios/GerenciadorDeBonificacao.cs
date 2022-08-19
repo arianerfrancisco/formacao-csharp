@@ -16,7 +16,7 @@ namespace bytebank_ADM.Utilitarios
             this._totalBonificacao += funcionario.getBonificacao();
         }
 
-        public double GetBonificacao()
+        public double GetTotalBonificacao()
         {
            return this._totalBonificacao;
         }

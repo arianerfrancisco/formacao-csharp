@@ -1,31 +1,67 @@
 ﻿using bytebank_ADM.Funcionarios;
+using bytebank_ADM.ParceriaComercial;
+using bytebank_ADM.SistemaInterno;
 using bytebank_ADM.Utilitarios;
 
-Console.WriteLine("Boas vindas ao ByteBank ADM");
+Console.WriteLine("Boas vindas ao ByteBank Administração!\n");
 
-CalcularBonificao();
-void CalcularBonificao()
-{
-    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+Console.WriteLine("### Usando o sistema ###");
+UsarSistema();
 
-    Diretor maria = new Diretor("475754");
-    maria.Nome = "Maria";
-    gerenciador.Registrar(maria);
+Console.WriteLine("\n");
 
-    Auxiliar ana = new Auxiliar("451212121");
-    ana.Nome = "Ana";
-    gerenciador.Registrar(ana);
-
-    Designer jose = new Designer("47575fsff4");
-    jose.Nome = "José";
-    gerenciador.Registrar(jose);
-
-    GerenteDeContas pedro= new GerenteDeContas("475dsds754");
-    pedro.Nome = "Pedro";
-    gerenciador.Registrar(pedro);
-
-    Console.WriteLine("Total de Bonificacao: " + gerenciador.GetBonificacao());
-
-}
+Console.WriteLine("### Calculando Bonificação ###");
+CalcularBonificacao();
 
 Console.ReadKey();
+
+static void UsarSistema()
+{
+    SistemaInterno sistemaInterno = new SistemaInterno();
+
+    Diretor samya = new Diretor("159.753.398-04");
+    samya.Nome = "Sâmya";
+    samya.Senha = "asd";
+
+    GerenteDeContas brenda = new GerenteDeContas("326.985.628-89");
+    brenda.Nome = "Brenda";
+    brenda.Senha = "qwe";
+
+    ParceiroComercial parceiro = new ParceiroComercial();
+    parceiro.Senha = "123456";
+
+    sistemaInterno.Logar(parceiro, "123456");
+
+    sistemaInterno.Logar(samya, "asd");
+    sistemaInterno.Logar(brenda, "qwe");
+}
+
+
+static void CalcularBonificacao()
+{
+    GerenciadorDeBonificacao gerenciadorBonificacao = new GerenciadorDeBonificacao();
+
+    Funcionario pedro = new Designer("833.222.048-39");
+    pedro.Nome = "Pedro";
+
+    Funcionario roberta = new Diretor("159.753.398-04");
+    roberta.Nome = "Roberta";
+
+    Funcionario igor = new Auxiliar("981.198.778-53");
+    igor.Nome = "Igor";
+
+    Funcionario camila = new GerenteDeContas("326.985.628-89");
+    camila.Nome = "Camila";
+
+    Desenvolvedor guilherme = new Desenvolvedor("456.175.468-20");
+    guilherme.Nome = "Guilherme";
+
+    gerenciadorBonificacao.Registrar(guilherme);
+    gerenciadorBonificacao.Registrar(pedro);
+    gerenciadorBonificacao.Registrar(roberta);
+    gerenciadorBonificacao.Registrar(igor);
+    gerenciadorBonificacao.Registrar(camila);
+
+    Console.WriteLine("Total de bonificações do mês " +
+        gerenciadorBonificacao.GetTotalBonificacao());
+}
