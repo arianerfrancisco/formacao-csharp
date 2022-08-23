@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="bytebank.Util\**" />
-    <EmbeddedResource Remove="bytebank.Util\**" />
-    <None Remove="bytebank.Util\**" />
-  </ItemGroup>
-
 </Project>

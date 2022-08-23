@@ -2,117 +2,124 @@
 {
 	public class ContaCorrente
 	{
-		private int _numero_agencia;
+		 public Cliente Titular{get;set;}
+        public string Nome_Agencia{ get; set; }
 
-		private string _conta;
+        private int _numero_agencia;
+        public int Numero_agencia
+        {
+            get
+            {
+                return _numero_agencia;
+            }
+            set
+            {
+                if(value <= 0)
+                {
 
-		private double saldo;
+                }
+                else
+                {
+                    _numero_agencia = value;
+                }
+            }
+        
+        }
 
-		public Cliente Titular { get; set; }
+        private string _conta;
+        public string Conta
+        {
+            get
+            {
+                return _conta;
+            }
+            set
+            {
+                if(value == null)
+                {
+                    return;
+                }
+                else
+                {
+                    _conta = value;
+                }
+            }
+        }
 
-		public string Nome_Agencia { get; set; }
+        private double saldo;
+        public double Saldo
+        {
+            get
+            {
+                return saldo;
+            }
+            set
+            {
+                if (value < 0)
+                {
+                    return;
+                }
+                else
+                {
+                    saldo = value;
+                }
+            }
+        }
 
-		public int Numero_agencia
-		{
-			get
-			{
-				return _numero_agencia;
-			}
-			set
-			{
-				if (value > 0)
-				{
-					_numero_agencia = value;
-				}
-			}
-		}
+        public static int TotalDeContasCriadas { get; set; }
 
-		public string Conta
-		{
-			get
-			{
-				return _conta;
-			}
-			set
-			{
-				if (value != null)
-				{
-					_conta = value;
-				}
-			}
-		}
+        public bool Sacar(double valor)
+        {
+            if(saldo < valor)
+            {
+                return false;
+            }
+            if(valor < 0)
+            {
+                return false;
+            }
+            else
+            {
+                saldo = saldo - valor;
+                return true;
+            }
+        }
 
-		public double Saldo
-		{
-			get
-			{
-				return saldo;
-			}
-			set
-			{
-				if (!(value < 0.0))
-				{
-					saldo = value;
-				}
-			}
-		}
+        public void Depositar(double valor)
+        {
+            if (valor < 0)
+            {
+                return;
+            }
+            saldo = saldo + valor;
+        }
 
-		public static int TotalDeContasCriadas { get; set; }
+        public bool Transferir(double valor,ContaCorrente destino)
+        {
+            if(saldo < valor)
+            {
+                return false;
+            }
+            if(valor <0)
+            {
+                return false;
+            }
+            else
+            {
+                saldo = saldo - valor;
+                destino.saldo = destino.saldo + valor;
+                return true;
+            }
+        }
+           
+        public ContaCorrente(int numero_agencia,string conta)
+        {
+            Numero_agencia = numero_agencia;
+            Conta = conta;
+            Titular = new Cliente();
+            TotalDeContasCriadas += 1;
 
-		public bool Sacar(double valor)
-		{
-			if (saldo < valor)
-			{
-				return false;
-			}
-			if (valor < 0.0)
-			{
-				return false;
-			}
-			saldo -= valor;
-			return true;
-		}
-
-		public void Depositar(double valor)
-		{
-			if (!(valor < 0.0))
-			{
-				saldo += valor;
-			}
-		}
-
-		public bool Transferir(double valor, ContaCorrente destino)
-		{
-			if (saldo < valor)
-			{
-				return false;
-			}
-			if (valor < 0.0)
-			{
-				return false;
-			}
-			saldo -= valor;
-			destino.saldo += valor;
-			return true;
-		}
-
-		public ContaCorrente(int numero_agencia)
-		{
-			Numero_agencia = numero_agencia;
-			Conta = Guid.NewGuid().ToString().Substring(0, 8);
-			Titular = new Cliente();
-			TotalDeContasCriadas++;
-		}
-
-		public override string ToString()
-		{
-
-			return $" === DADOS DA CONTA === \n" +
-				   $"Número da Conta : {this.Conta} \n" +
-				   $"Titular da Conta: {this.Titular.Nome} \n" +
-				   $"CPF do Titular  : {this.Titular.Cpf} \n" +
-				   $"Profissão do Titular: { this.Titular.Profissao}";
-		}
+        }
 	}
 
 }
