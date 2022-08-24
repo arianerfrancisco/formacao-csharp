@@ -8,6 +8,7 @@ Console.WriteLine("Boas Vindas ao ByteBank, Atendimento.");
 //TestaArrayAdicionar();
 //TestaArrayRemover();
 //Indexador();
+
 void TestaArrayDeContasCorrentes()
 {
     ContaCorrente[] listaDeContas = new ContaCorrente[]
@@ -66,8 +67,16 @@ void Indexador()
         Console.WriteLine($"Indice [{i}] = {conta.Conta}/{conta.Nome_Agencia}");
     }
 }
-
-ArrayList _listaDeContas = new ArrayList();
+#region Menu de Opções
+//ArrayList _listaDeContas = new ArrayList(); // com o arraylist todos os objetos são aceitos a adição, até um string por exemplo.
+List<ContaCorrente> _listaDeContas = new List<ContaCorrente>()
+// generics<> parametriza-se o tipo de objeto a ser inserido.
+//  Essa prática também é interessante por uma questão de segurança, pois sabemos que nossa lista receberá somente contas-correntes.
+{
+    new ContaCorrente(95, "123456-X") {Saldo=100},
+    new ContaCorrente(95, "951258-X") {Saldo=200},
+    new ContaCorrente(94, "987321-W") {Saldo=60}
+}; 
 AtendimentoCliente();
 void AtendimentoCliente()
 {   
@@ -97,10 +106,39 @@ void AtendimentoCliente()
             case '1':
                 CadastrarConta();
                 break;
+            case '2':
+                ListarConta();
+                break;
             default:
                 Console.WriteLine("Opcao não implementada.");
                 break;
         }
+    }
+}
+
+void ListarConta()
+{
+    Console.Clear();
+    Console.WriteLine("===============================");
+    Console.WriteLine("===     LISTA DE CONTAS     ===");
+    Console.WriteLine("===============================");
+    Console.WriteLine("\n");
+    if (_listaDeContas.Count<=0)
+    {
+        Console.WriteLine("Não há contas cadastradas");
+        Console.ReadKey();
+        return;
+    }
+    foreach (ContaCorrente item in _listaDeContas)
+    {
+        Console.WriteLine("===  Dados da Conta  ===");
+        Console.WriteLine("Número da Conta : " + item.Conta);
+        Console.WriteLine("Saldo da Conta : " + item.Saldo);
+        Console.WriteLine("Titular da Conta: " + item.Titular.Nome);
+        Console.WriteLine("CPF do Titular  : " + item.Titular.Cpf);
+        Console.WriteLine("Profissão do Titular: " + item.Titular.Profissao);
+        Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        Console.ReadKey();
     }
 }
 
@@ -136,3 +174,4 @@ void CadastrarConta()
     Console.WriteLine("... Conta cadastrada com sucesso! ...");
     Console.ReadKey();
 }
+#endregion
