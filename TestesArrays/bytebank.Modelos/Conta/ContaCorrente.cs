@@ -3,7 +3,7 @@
 	public class ContaCorrente:IComparable<ContaCorrente>
 	{
 
-		public Cliente Titular{get;set;}
+		 public Cliente Titular{get;set;}
         public string Nome_Agencia{ get; set; }
 
         private int _numero_agencia;
@@ -134,14 +134,6 @@
         {
             Numero_agencia = numero_agencia;
             Conta = conta;
-            Titular = new Cliente();
-            TotalDeContasCriadas += 1;
-
-        }
-        public ContaCorrente(int numero_agencia)
-        {
-            Numero_agencia = numero_agencia;
-            Conta = Guid.NewGuid().ToString().Substring(0, 8); // gerando automatico o numero da conta
             Titular = new Cliente();
             TotalDeContasCriadas += 1;
 
