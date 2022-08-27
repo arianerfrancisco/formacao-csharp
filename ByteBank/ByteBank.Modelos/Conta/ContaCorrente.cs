@@ -4,9 +4,8 @@
     {
         public Cliente Titular { get; set; }
 
-        public static double TaxaOperacao { get; private set; }
-
         public static int TotalDeContasCriadas { get; private set; }
+
 
         private int _agencia;
         public int Agencia
@@ -46,21 +45,15 @@
             }
         }
 
+
         public ContaCorrente(int agencia, int numero)
         {
-            try
-            {
-                Agencia = agencia;
-                Numero = numero;
-                TaxaOperacao = 30 / TotalDeContasCriadas;
-                TotalDeContasCriadas++;
-            }
-            catch (DivideByZeroException)
-            {
+            Agencia = agencia;
+            Numero = numero;
 
-                Console.WriteLine("Ocorreu um erro, não é possível dividir por zero.");
-            }          
+            TotalDeContasCriadas++;
         }
+
 
         public bool Sacar(double valor)
         {
@@ -77,6 +70,7 @@
         {
             _saldo += valor;
         }
+
 
         public bool Transferir(double valor, ContaCorrente contaDestino)
         {

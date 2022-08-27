@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.ByteBank.Exceptions
 {
-    internal class OperacaoFinanceiraException
+    public class OperacaoFinanceiraException : Exception
     {
     }
 }
