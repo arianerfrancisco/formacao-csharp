@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ByteBank;
+
+ContaCorrente conta = new ContaCorrente(7480, 874250);
+Console.ReadLine();
+ 
