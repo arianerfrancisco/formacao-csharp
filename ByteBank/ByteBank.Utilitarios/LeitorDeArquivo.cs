@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ByteBank.ByteBank.Exceptions
+namespace ByteBank.ByteBank.Utilitarios
 {
-    public class SaldoInsuficienteException : OperacaoFinanceiraException
+    internal class LeitorDeArquivo
     {
     }
 }
