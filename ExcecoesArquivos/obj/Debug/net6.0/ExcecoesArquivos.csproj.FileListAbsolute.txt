@@ -1,0 +1,15 @@
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\bin\Debug\net6.0\ExcecoesArquivos.exe
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\bin\Debug\net6.0\ExcecoesArquivos.deps.json
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\bin\Debug\net6.0\ExcecoesArquivos.runtimeconfig.json
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\bin\Debug\net6.0\ExcecoesArquivos.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\bin\Debug\net6.0\ExcecoesArquivos.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ExcecoesArquivos.csproj.AssemblyReference.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ExcecoesArquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ExcecoesArquivos.AssemblyInfoInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ExcecoesArquivos.AssemblyInfo.cs
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ExcecoesArquivos.csproj.CoreCompileInputs.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ExcecoesArquivos.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\refint\ExcecoesArquivos.dll
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ExcecoesArquivos.pdb
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ExcecoesArquivos.genruntimeconfig.cache
+C:\Users\Ariane Rocha\Desktop\Projetos\formacao-csharp\ExcecoesArquivos\obj\Debug\net6.0\ref\ExcecoesArquivos.dll
